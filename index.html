@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f8eee9" />
+  <meta name="description" content="Una pequeña sorpresa para Yuki." />
+  <title>Para Yuki ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="page-shell">
+    <section id="intro" class="screen active">
+      <div class="top-note">tengo algo para ti...</div>
+
+      <div class="envelope-wrap" aria-hidden="true">
+        <div class="envelope">
+          <div class="envelope-back"></div>
+          <div class="letter-peek">
+            <span>para ti ♡</span>
+          </div>
+          <div class="envelope-front"></div>
+          <div class="envelope-flap"></div>
+          <div class="seal">♡</div>
+        </div>
+      </div>
+
+      <div class="intro-copy">
+        <h1>Una cosita pequeña</h1>
+        <p id="hint">Pero no sé si estas lista para abrirla</p>
+      </div>
+
+      <div class="button-zone" id="buttonZone">
+        <button id="openButton" class="open-button" type="button">Abrir</button>
+      </div>
+
+    </section>
+
+    <section id="letterScreen" class="screen letter-screen">
+      <div class="letter-stage">
+        <div class="opened-envelope">
+          <div class="opened-back"></div>
+
+          <article class="paper" id="paper">
+            <p class="eyebrow">Yuki ♡</p>
+
+            <figure class="portrait-card">
+              <img src="assets/yuki-lirios.webp" alt="Ilustración de Yuki entre lirios" />
+              <figcaption>Yuki entre lirios 🌸</figcaption>
+            </figure>
+
+            <p class="ending">fin de la sorpresa... por ahora 🐾</p>
+
+            <button id="againButton" class="again-button" type="button">
+              volver a verlo
+            </button>
+          </article>
+
+          <div class="opened-front"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="particles" id="particles" aria-hidden="true"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
